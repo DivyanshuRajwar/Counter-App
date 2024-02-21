@@ -103,6 +103,11 @@ body,html{
     border-top-left-radius: 0;
     background-color: coral;
 }
+.left:hover{
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 28px;
+}
 
 .reset h2{
     font-size: 35px;
@@ -111,13 +116,22 @@ body,html{
 @media (max-width:600px) {
     body{
         overflow-y:hidden ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inc{
+        height: 70%;
+    }
+    .dec{
+        height: 70%;
     }
     .heading h1{
         font-size: 8vw;
     }
     .content {
         width: 250px;
-        height: 50px;
+        height: 80px;
     }
     .dec i{
         font-size: 7vw;
@@ -129,5 +143,7 @@ body,html{
         width: 25vw;
         font-size:8vw ;
     }
-
+    .reset:hover{
+        background-color: ;
+    }
 }
